@@ -1,5 +1,9 @@
 const Header = () => {
-    return ( <header><h1>Animals</h1></header>)
-}
-
-
+    return (
+      <header className="header">
+        <h1>Zoo app</h1>
+      </header>
+    );
+  };
+  
+  export default Header;
